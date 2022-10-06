@@ -1,0 +1,115 @@
+body {
+  font-family: "Avenir Next";
+}
+
+.today {
+  float: right;
+  padding: 0px 30px;
+}
+
+.make-day {
+  float: right;
+  padding: 0px 30px;
+}
+
+.header {
+  height: 150px;
+  padding: 20px 10px;
+}
+
+.header-logo {
+  text-align: center;
+  border: 2px solid rgb(248, 205, 237);
+  margin-top: 10px;
+  padding: 20px 0;
+}
+
+.logo {
+  color: pink;
+}
+
+.logo2 {
+  color: white;
+  background-color: pink;
+  padding: 10px 15px;
+}
+
+.mo {
+  font-size: 50px;
+  font-family: "HGP行書体";
+}
+
+.main {
+  width: 100%;
+  margin: auto 0;
+  height: 850px;
+  margin: 10px 0;
+}
+
+.maturi-container {
+  float: left;
+  width: 30%;
+ 
+}
+
+.maturi-container img {
+  width: 80%;
+}
+
+.left-top {
+  border: 1px solid antiquewhite;
+  margin: 0 5px 0 10px;
+}
+
+.left-title {
+  font-size: 22px;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 20px 30px 0 30px;
+}
+
+.left-title2 {
+  font-size: 15px;
+  display:inline-block;
+  font-weight: bold;
+}
+
+.maturi-container2 {
+  width: 67%;
+  float: left;
+  border-left: 1px solid black;
+  padding-left: 15px;
+  border: 2px solid rgb(154, 246, 251);
+}
+
+.title-right {
+  text-align: center;
+  background-color: rgb(154, 246, 251);
+}
+
+.title {
+  font-size: 30px;
+}
+
+.picture {
+  width: 48%;
+  float: left;
+  padding-right: 10px;
+}
+
+.ps {
+  padding-top: 20px;
+}
+
+.contents img {
+  width: 100%;
+}
+
+.footer-logo {
+  margin-left: 10px;
+}
+
+.footer-list {
+  border: 2px solid rgb(86, 175, 86);
+  margin: 0px 10px;
+}

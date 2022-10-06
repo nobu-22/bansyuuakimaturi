@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <link  rel="stylesheet" href="akimaturi.css">
+         <meta charset="utf-8">
+         <title>冨嶋神社秋祭り</title>
+     </head>
+     <body>
+        <div class="today">本日:<span id="text"></span></div><br>
+        <div class="make-day">HP作成日:2022年9月16日</div>
+         <div class="header">
+            <div class="header-logo">
+                <a class="logo mo">冨嶋神社秋祭り</a>
+                <a class="logo2 mo">苅屋</a>
+            </div>
+         </div>
+
+         <div class="main">
+
+            <div class="maturi-container">
+             <div class="left-top">
+                <div class="left-top2">
+                 <p class="left-title">青年会による提灯割り！！</p>
+                 <img src="C:\Users\81805\OneDrive\ドキュメント\プログラミング\akimaturi\image\tyotinwari1.JPG"> <!--提灯-->
+                 <img src="C:\Users\81805\OneDrive\ドキュメント\プログラミング\akimaturi\image\tyotinwari2.JPG"> <!--提灯-->
+                 <p class="left-title2">↑写真は、平成2年會による提灯割り</p>
+                </div>
+                 <p>・宵宮の夜、各村から冨嶋神社に大提灯が集まり、村ごとに宮内で提灯割りが行われる。大提灯は、青年会により制作されたもの。多くの若中が竹を持ち、播州伊勢音頭を歌いながら、大提灯めがけて竹を振り下す光景は、見ごたえがある。</p>
+             </div>
+            </div>
+
+            <div class="maturi-container2">
+                <div class="section-title">
+                    <div class="title-right">
+                        <p class="storong">ピンクの鉢巻&しでが目印!!</p>
+                        <p class="title">苅屋屋台</p>
+                    </div>
+                    <img src=""> <!--祭りのロゴ-->
+                </div>
+
+                <div class="contents">
+                    <div class="picture"> <!--目印はピンクの鉢巻-->
+                        <img src="C:\Users\81805\OneDrive\ドキュメント\プログラミング\akimaturi\image\otabisyo.kariya.JPG"> <!--御旅所写真-->
+                        <p>御旅所前にて、チョーサをしている時の写真（2016年）。天気は曇りだが、練り子の気合は十分！</p> <!--写真についての説明-->
+                    </div>
+                </div>
+                <div class="contents">
+                    <div class="picture">
+                        <img src="C:\Users\81805\OneDrive\ドキュメント\プログラミング\akimaturi\image\miyanai.kariyahoka.JPG"> <!--宮内写真-->
+                        <p>夜の宮内でも、各村の屋台が集まり、拝殿前でチョーサを交互に繰り広げる。各村の掛け声が違うの為、その違いも楽しめる。</p> <!--写真についての説明-->
+                    </div>   
+                </div>
+                <div class="contents">
+                    <div class="picture">
+                        <img class="ps" src="C:\Users\81805\OneDrive\ドキュメント\プログラミング\akimaturi\image\mariamae.kariya-hamada.JPG"> <!--マリア前写真-->
+                        <p>マリア幼稚園前の交差点で、「苅屋（ピンク）」・「濱田南（赤）」・「濱田西（青）」の3つの村が揃い、3台練りが行われる。暗い夜の中で行われる為、電飾がきれいに輝く屋台も見どころ。</p> <!--写真についての説明-->
+                    </div>
+                </div>
+            </div>
+     
+        </div>
+
+        <div class="footer">
+            <div class="footer-logo">DATA</div>
+            <div class="footer-list">
+                <ul>
+                    <li>開催日:毎年10月の第3週の土曜日（宵宮）・日曜日（本宮）</li> <!--開催日-->
+                    <li>時間帯:7:00~22:00</li> <!--時間帯-->
+                    <li>場所:<a href="https://www.google.com/maps/place/%E5%AF%8C%E5%B6%8B%E7%A5%9E%E7%A4%BE/@34.7781266,134.5643375,20.5z/data=!4m8!1m2!2m1!1searth!3m4!1s0x3554e5475369831f:0x961546754ccec3fe!8m2!3d34.7780515!4d134.564251">冨嶋神社</a>、<a href="https://www.google.com/maps/place/%E5%AF%8C%E5%B6%8B%E7%A5%9E%E7%A4%BE%E5%BE%A1%E6%97%85%E6%89%80/@34.7814367,134.5696697,21z/data=!4m8!1m2!2m1!1searth!3m4!1s0x3554e557e4fa7251:0x8c55181da1f0c764!8m2!3d34.781467!4d134.5697466">冨嶋神社御旅所</a>、<a href="https://www.google.com/maps/place/%E8%8B%85%E5%B1%8B%E5%85%AC%E6%B0%91%E9%A4%A8/@34.7803115,134.5675881,21z/data=!4m8!1m2!2m1!1searth!3m4!1s0x3554e53ae56bad19:0x11e6f626c1f54c55!8m2!3d34.7802746!4d134.5675319">苅屋公民館</a>、村内ect...</li> <!--場所-->
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            document.getElementById("text").innerHTML = showDay();
+            function showDay() {
+                var today=new Date(); 
+                var year = today.getFullYear();
+                var month = today.getMonth()+1;
+                var day = today.getDate();
+                return (year+"年"+month+"月"+day+"日 ");
+            }
+        </script>
+
+     </body>
+ </html>     
